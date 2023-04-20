@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import Product from "./Product";
+import Footer from "./Footer";
 
 const RootPage = () => {
   return (
@@ -18,6 +19,7 @@ const RootPage = () => {
         </div>
         <HeroSection />
         <Product />
+        <Footer />
     </div>
   );
 };
