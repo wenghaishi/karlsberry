@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  background-color: #004736;
+  height:36px;
+  color:white;
+  font-size:13px;
+}
+
+.title-text {
+  color: #004736;
+}
+
+.hero {
+  margin-top: 50%;
+  background-color: #F9BBAC;
+}
+
+.about {
+  background-color: #FFF7EB;
+  height: 100vh;
+}
