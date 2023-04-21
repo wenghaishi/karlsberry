@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { AiOutlineInstagram } from 'react-icons/ai';
+
 
 const About = () => {
   return (
@@ -57,7 +59,10 @@ const About = () => {
           and friends. You are precious. God bless you.
           <br></br>
           <br></br>
-          <span className="italic">- Sylvester, founder of Karlsberry</span>
+          
+          <span className="italic flex flex-row gap-6 items-center">
+          <a href="https://www.instagram.com/sylvesterpillay"><AiOutlineInstagram className="text-3xl"/></a>Sylvester, founder of Karlsberry
+          </span>
         </p>
       </div>
     </div>
