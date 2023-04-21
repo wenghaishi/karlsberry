@@ -3,9 +3,8 @@ import Banner from "./Banner";
 import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import Product from "./Product";
-import Product1 from "./Product1";
 import Footer from "./Footer";
-import Product2 from "./Product2";
+
 
 const RootPage = () => {
   const products = [
