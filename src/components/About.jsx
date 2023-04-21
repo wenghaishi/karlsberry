@@ -54,7 +54,7 @@ const About = () => {
           bless you.
         </p>
       </div>
-        <div className="flex h-20 flex-row w-full justify-evenly fixed bottom-0 items-center footer">
+        <div className="flex h-14 flex-row w-full justify-evenly fixed bottom-0 items-center footer">
           <img src="logo.png" alt="" className="w-28" />
           <div className="footer-text"> All rights reserved: Minna</div>
           <div className="w-28"></div>
