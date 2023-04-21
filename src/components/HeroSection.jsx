@@ -10,7 +10,7 @@ const HeroSection = () => {
           <h1 className="z-40 md:text-4xl xl:text-6xl text-[#484180]">
             Your favourite sparkling tea!
           </h1>
-          <p className=" text-sm lg:text-lg xl:text-2xl w-1/2 z-20">
+          <p className=" text-sm lg:text-md xl:text-xl w-7/12 z-20">
             Cold brewed with organic tea, fruit juices, botanical infusions and
             antioxidants without sugar or sweeteners to keep you healthy, fun &
             sparkling.
