@@ -19,6 +19,7 @@ const RootPage = () => {
         </div>
         <HeroSection />
         <Product />
+        <Product />
         <Footer />
     </div>
   );

@@ -20,5 +20,12 @@
 
 .about {
   background-color: #FFF7EB;
-  height: 100vh;
+}
+
+.about-img {
+  left: 10%;
+}
+
+.about-box {
+  margin-left: 35%;
 }
