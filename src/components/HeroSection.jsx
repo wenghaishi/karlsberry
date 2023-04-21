@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="pt-96 xl:pt-0 hero z-20 flex flex-col justify-center items-center">
       <Parallax className="z-20">
         <div className="flex flex-col justify-center mt-60 md:mt-40 items-center gap-6">
-          <h1 className="z-40 text-lg md:text-4xl xl:text-6xl text-[#484180]">
+          <h1 className="z-40 text-xl md:text-4xl xl:text-6xl text-[#484180]">
             Your favourite sparkling tea!
           </h1>
           <p className=" text-sm lg:text-md xl:text-xl w-7/12 z-20 text-center">
