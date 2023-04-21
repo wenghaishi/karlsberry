@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import Product from "./Product";
+import Product1 from "./Product1";
 import Footer from "./Footer";
 
 const RootPage = () => {
@@ -19,7 +20,7 @@ const RootPage = () => {
         </div>
         <HeroSection />
         <Product />
-        <Product />
+        <Product1 />
         <Footer />
     </div>
   );

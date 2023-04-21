@@ -3,10 +3,20 @@
 @tailwind utilities;
 
 .banner {
-  background-color: #004736;
+  background-color: #047b54;
   height:36px;
   color:white;
   font-size:13px;
+}
+
+.footer {
+  background-color: #1bba43;
+  color:white;
+  font-size:15px;
+}
+
+.footer-text {
+  color: #047b54;;
 }
 
 .title-text {
@@ -28,4 +38,8 @@
 
 .about-box {
   margin-left: 35%;
+}
+
+.product1 {
+  background-color: #F4E55B;
 }

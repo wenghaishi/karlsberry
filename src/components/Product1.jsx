@@ -1,9 +1,9 @@
 import React from "react";
 
-const Product = () => {
+const Product1 = () => {
   return (
-    <div className="h-screen w-full bg-emerald-400 flex flex-row items-center justify-center gap-16">
-      <img src="m-lime.png" alt="" className="object-cover w-80" />
+    <div className="h-screen w-full product1 flex flex-row items-center justify-center gap-16">
+      <img src="m-pineapple.png" alt="" className="object-cover w-80" />
       <div className="flex flex-col items-center w-1/4 justify-center">
         <h1 className="text-5xl font-semibold mb-12">Lime Hibiscus Rooibos Tea</h1>
         <hr class="border-t-2 border-gray-300 my-8" />
@@ -18,4 +18,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Product1;

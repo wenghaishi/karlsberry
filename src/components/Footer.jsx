@@ -2,8 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-20 flex flex-row justify-center items-center banner">
-      Footer
+    <div className="flex h-24 flex-row justify-evenly items-center footer">
+      <img src="logo.png" alt="" className="w-28" />
+      <div className="footer-text"> All rights reserved: Minna</div>
+      <div className="w-28"></div>
     </div>
   );
 };
