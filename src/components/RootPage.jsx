@@ -5,13 +5,12 @@ import Product from "./Product";
 import Footer from "./Footer";
 import RootEnd from "./RootEnd";
 
-
 const RootPage = () => {
   const products = [
     {
       name: "Peach Oolong Tea",
       description:
-        "The marriage of sweet peach with oolong is brought to life with effervescence! All natural tea and real fruit juice lets you identify and taste the refreshing flavors.",
+        "The golden marriage of sweet peach with oolong is brought to life with effervescence! Organic tea and real fruit juice lets you identify and taste the refreshing flavors. Oolong tea helps burn fat and reduces stress.",
       bgColor: "bg-[#F5D467]",
       img: "p.webp",
       text: "text-[#CC7722]",
@@ -27,7 +26,7 @@ const RootPage = () => {
     {
       name: "Rose White Tea",
       description:
-        "You will love the refreshing taste of alphonso mango balanced with the earthiness of black tea. Light on your palette yet full-bodied. Black tea improves focus and lowers blood sugar levels.",
+        "We steep pink rosa damascena buds to create a beautiful pink hue while extracting the luscious aroma and flavour. White tea reduces the risk of heart disease and osteoporosis among many other benefits.",
       bgColor: "bg-[#ECC5DC]",
       img: "p2.webp",
       text: "text-[#C4478F]",
