@@ -22,13 +22,12 @@ const Navbar = () => {
 
   return (
     <div
-      className="w-full h-16 flex fixed flex-row justify-between px-12 z-20 items-center bg-inherit"
+      className="w-full h-16 flex flex-col mt-6 md:mt-0 fixed md:flex-row justify-between px-12 z-20 items-center "
       style={{
-        transform: visible ? "translateY(0)" : "translateY(-100%)",
+        transform: visible ? "translateY(0)" : "translateY(-115%)",
         transition: "transform 0.3s ease-in-out",
       }}
     >
-      {/* <Link to='/'><img src="logo.png" alt="" className='h-10  ml-4' /></Link> */}
       <Link to="/">
         <img src="logo.webp" alt="" className="h-6"/>
       </Link>
