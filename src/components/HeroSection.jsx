@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
+import Logo from "./Logo";
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
       </Parallax>
       <Parallax speed={-20}>
         <div>
-          <img src="logo.png" alt="" className="z-10" />
+          <Logo />
         </div>
       </Parallax>
     </div>
