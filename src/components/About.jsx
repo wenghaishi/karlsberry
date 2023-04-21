@@ -60,7 +60,7 @@ const About = () => {
           <br></br>
           <br></br>
           
-          <span className="italic flex flex-row gap-6 pb-4 md:pb-0 items-center">
+          <span className="italic flex flex-row gap-4 pb-4 md:pb-0  items-center">
           <a href="https://www.instagram.com/sylvesterpillay"><AiOutlineInstagram className="text-3xl"/></a>Sylvester, founder of Karlsberry
           </span>
         </p>
