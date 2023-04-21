@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Shop = () => {
+const Team = () => {
   return (
     <div className='h-screen bg-[#BADAD5] flex flex-col justify-center items-center'>
       <img src="dog.jpg" alt="" className='h-40'/>
@@ -11,4 +11,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default Team
