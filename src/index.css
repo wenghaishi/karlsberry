@@ -16,18 +16,15 @@ font-family: 'Playfair Display', serif;
 }
 
 .footer {
-  background-color: #F9BBAC;
+  background-color: #2e2b2b;
   color:white;
   font-size:15px;
 }
 
 .footer-text {
-  color: #047b54;;
+  color: rgb(255, 255, 255);;
 }
 
-.title-text {
-  color: #004736;
-}
 
 .hero {
   margin-top: 50%;
@@ -48,4 +45,19 @@ font-family: 'Playfair Display', serif;
 
 .product1 {
   background-color: #F4E55B;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.root-end {
+  background-color: #a3dffd;
+}
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
 }

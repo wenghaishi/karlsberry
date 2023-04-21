@@ -1,15 +1,15 @@
 import React from "react";
-import Banner from "./Banner";
 import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import Product from "./Product";
 import Footer from "./Footer";
+import RootEnd from "./RootEnd";
 
 
 const RootPage = () => {
   const products = [
     {
-      name: "Peach Oolong",
+      name: "Peach Oolong Tea",
       description:
         "The marriage of sweet peach with oolong is brought to life with effervescence! All natural tea and real fruit juice lets you identify and taste the refreshing flavors.",
       bgColor: "bg-[#F5D467]",
@@ -17,7 +17,7 @@ const RootPage = () => {
       text: "text-[#CC7722]",
     },
     {
-      name: "Blackberry Purple",
+      name: "Blackberry Purple Tea",
       description:
         "A unique blend which embodies a royal purple hue is set to tease your tastebuds with the sweet and tart notes of the blackberry. Purple tea also has the most antioxidants than any other tea leaf!",
       bgColor: "bg-[#B6A5C8]",
@@ -25,7 +25,7 @@ const RootPage = () => {
       text: "text-[#0A0B21]",
     },
     {
-      name: "Rose White",
+      name: "Rose White Tea",
       description:
         "You will love the refreshing taste of alphonso mango balanced with the earthiness of black tea. Light on your palette yet full-bodied. Black tea improves focus and lowers blood sugar levels.",
       bgColor: "bg-[#ECC5DC]",
@@ -33,7 +33,7 @@ const RootPage = () => {
       text: "text-[#C4478F]",
     },
     {
-      name: "Mango Black",
+      name: "Mango Black Tea",
       description:
         "You will love the refreshing taste of alphonso mango balanced with the earthiness of black tea. Light on your palette yet full-bodied. Black tea improves focus and lowers blood sugar levels.",
       bgColor: "bg-[#9E8C6E]",
@@ -59,7 +59,6 @@ const RootPage = () => {
   ];
   return (
     <div className="flex flex-col">
-      <Banner />
       <div className="relative inline z-50">
         <img
           src="bg.jpg"
@@ -78,6 +77,7 @@ const RootPage = () => {
           text={product.text}
         />
       ))}
+      <RootEnd />
       <Footer />
     </div>
   );

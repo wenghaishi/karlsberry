@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex h-14 flex-row justify-evenly items-center footer">
       <Logo />
-      <div className="footer-text"> All rights reserved: Karlsberry</div>
+      <div className="footer-text"> Brewing soon in Singapore. 2023.</div>
       <div className="w-28"></div>
     </div>
   );
