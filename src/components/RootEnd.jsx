@@ -4,7 +4,7 @@ const RootEnd = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen root-end">
       <div className="text-lg md:text-5xl text-center font-semibold text-zinc-300 ">
-        Karlsberry advocates for youth & children.
+        Karlsberry advocates for youth & children
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center pd-4 gap-16 p-10 md:p-14 root-end">
         <img src="children.webp" alt="" className="max-w-md	w-2/3 flex rounded-xl" />
