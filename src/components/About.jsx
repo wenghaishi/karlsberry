@@ -8,14 +8,14 @@ const About = () => {
   return (
     <div className="about flex justify-center">
       <Navbar className="none" />
-      <div className="flex flex-row justify-evenly relative items-center h-screen">
+      <div className="flex flex-col md:flex-row justify-evenly relative items-center md:h-screen">
         <img
           src="about.gif"
           alt=""
-          className="rounded-lg drop-shadow-sm flex "
+          className="rounded-lg drop-shadow-sm mt-28 mb-10 md:mb-0 md:mt-0 flex "
         />
-        <p className="w-1/2 text-sm ">
-          <span className="font-semibold text-4xl ">
+        <p className="md:w-1/2 px-6 md:px-0 text-sm ">
+          <span className="font-semibold md:text-4xl ">
             A father & son’s love.{" "}
           </span>
           <br></br>
@@ -60,7 +60,7 @@ const About = () => {
           <br></br>
           <br></br>
           
-          <span className="italic flex flex-row gap-6 items-center">
+          <span className="italic flex flex-row gap-6 pb-4 md:pb-0 items-center">
           <a href="https://www.instagram.com/sylvesterpillay"><AiOutlineInstagram className="text-3xl"/></a>Sylvester, founder of Karlsberry
           </span>
         </p>
