@@ -60,7 +60,7 @@ const RootPage = () => {
     <div className="flex flex-col">
       <div className="relative inline z-50">
         <img
-          src="bg.jpg"
+          src="banner.png"
           alt=""
           className="absolute object-cover mt-0 h-screen"
         />
